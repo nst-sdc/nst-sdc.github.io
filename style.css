@@ -1,0 +1,72 @@
+/* Basic Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+  background-color: #0f2027;
+  color: #fff;
+}
+
+/* Particle.js Background */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #0f2027; /* Dark gradient background */
+  background-image: linear-gradient(315deg, #0f2027 0%, #203a43 74%);
+}
+
+/* Centered Content */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  z-index: 10;
+}
+
+/* Card Style */
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+
+/* Text Styling */
+.card h1 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #ff7e5f;
+}
+
+.card h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: #f7b733;
+}
+
+.card p {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #dfe6e9;
+}
+
+.card strong {
+  color: #ff7e5f;
+}
+
+/* Hover Effects */
+.card:hover {
+  transform: scale(1.05);
+}
